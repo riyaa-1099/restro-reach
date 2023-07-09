@@ -52,9 +52,15 @@ Open your browser and visit http://localhost:3000.
 The frontend application communicates with the backend server using the following API endpoints:
 
 /api/user/signup: POST request to create a new user account.
+
 /api/user/signin: POST request to log in with user credentials.
+
 /api/user/logout: POST request to log out the currently logged-in user.
+
 /api/restaurant: GET request to retrieve a paginated list of restaurants.
+
 /api/restaurant/:id: GET request to retrieve a specific restaurant.
+
 /api/restaurants/:id: PUT request to update a specific restaurant.
+
 /api/restaurants/:id: DELETE request to delete a specific restaurant.
