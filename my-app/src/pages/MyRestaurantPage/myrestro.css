@@ -1,0 +1,34 @@
+body{
+    background-color: #f3d1d1;
+}
+.registerpage {
+    border: 2px solid rgb(240, 169, 169);
+    border-radius: 5px;
+    width: 40%;
+    margin: 2% auto;
+    padding: 1%;
+    background-color: white;
+  }
+  
+  .registerpage * {
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: rgb(74, 73, 73);
+  }
+  .button {
+    width: max-content;
+    margin: auto;
+    padding: 10px;
+    font-weight: bold;
+  }
+  .button:hover {
+    background-color: #eaa4a4;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,29 @@
+.registerpage {
+  border: 2px solid rgb(169, 165, 165);
+  border-radius: 5px;
+  width: 40%;
+  margin: 2% auto;
+  padding: 1%;
+}
+
+.registerpage * {
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(74, 73, 73);
+}
+.button {
+  width: max-content;
+  margin: auto;
+  padding: 4%;
+  font-weight: bold;
+}
+.button:hover {
+  background-color: #eaa4a4;
+  cursor: pointer;
+}

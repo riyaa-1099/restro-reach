@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eaa4a4;
+    color: #fff;
+  }
+  
+  .nav * {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  .nav *:hover {
+    background-color: #fc7d7d;
+  }
+  
